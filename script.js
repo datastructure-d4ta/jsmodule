@@ -1,5 +1,7 @@
-const button = document.getElementByClass("button");
-button.addEventListener("mouseover", ()=>{
-  button.click();
+const button = document.querySelector(".button");
+for (let i=0; i<button; button++;){
+i.addEventListener("mouseover", ()=>{
+  i.click();
 }
 )
+}
