@@ -1,3 +1,4 @@
+const win=window;
 function goToSite(site){
   window.location.replace(site);
 }
@@ -8,3 +9,7 @@ function refreshLoop(amount){
   }
 }
 window.refreshLoop=refreshLoop;
+function getURL(){
+  return window.location.href;
+}
+window.getSiteName=getSiteName;
