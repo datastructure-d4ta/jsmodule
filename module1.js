@@ -8,3 +8,10 @@ function refreshLoop(amount){
   }
 }
 window.refreshLoop=refreshLoop;
+function clickAll(id){
+  const button = document.querySelectorAll(id);
+for (let i=0; i<button.length; i++){
+button[i].addEventListener("mouseover", ()=>{
+  button[i].click();
+});
+}
