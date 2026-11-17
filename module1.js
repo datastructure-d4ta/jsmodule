@@ -15,3 +15,5 @@ button[i].addEventListener("mouseover", ()=>{
   button[i].click();
 });
 }
+}
+window.clickAll=clickAll;
